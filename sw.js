@@ -1,20 +1,18 @@
 const CACHE_NAME = "tiktok-clone-v1";
 
 
-const PROJECT_ROOT = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" 
-    ? "/" 
-    : "/daohuyenmy-test/";
+const REPOSITORY_PROJECT_ROOT = "/daohuyenmy-test/";
 
 self.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
             return cache.addAll([
-                `${PROJECT_ROOT}favicon.ico`,
-                `${PROJECT_ROOT}index.html`,
-                `${PROJECT_ROOT}offline.html`,
-                `${PROJECT_ROOT}placeholder.jpg`,
-                `${PROJECT_ROOT}sw.js`,
-                `${PROJECT_ROOT}videos.json`
+                `${REPOSITORY_PROJECT_ROOT}favicon.ico`,
+                `${REPOSITORY_PROJECT_ROOT}index.html`,
+                `${REPOSITORY_PROJECT_ROOT}offline.html`,
+                `${REPOSITORY_PROJECT_ROOT}placeholder.jpg`,
+                `${REPOSITORY_PROJECT_ROOT}sw.js`,
+                `${REPOSITORY_PROJECT_ROOT}videos.json`
             ]);
         })
     );
@@ -61,7 +59,7 @@ self.addEventListener("fetch", (event) => {
                     })
                     .catch((err) => {
                         console.error("Fetch failed:", err);
-                        return caches.match(`${PROJECT_ROOT}offline.html`);
+                        return caches.match(`${REPOSITORY_PROJECT_ROOT}offline.html`);
                     });
             });
         })
