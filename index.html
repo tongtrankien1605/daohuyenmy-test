@@ -151,9 +151,9 @@
             const BASE_URL_VIDEO = "https://raw.githubusercontent.com/tongtrankien1605/daohuyenmy/main/videos/"; // url nguồn video
 
             // Xác định VIDEOS_JSON_URL, PROJECT_ROOT và REPOSITORY_PROJECT_ROOT dựa trên môi trường
-            const VIDEOS_JSON_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? "/videos.json" : "/daohuyenmy-test/videos.json";
+            const VIDEOS_JSON_URL = "/daohuyenmy-test/videos.json";
 
-            const REPOSITORY_PROJECT_ROOT = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? "/" : "/daohuyenmy-test/";
+            const REPOSITORY_PROJECT_ROOT = "/daohuyenmy-test/";
 
             let videoUrls = [];
             let currentIndex = 0;
