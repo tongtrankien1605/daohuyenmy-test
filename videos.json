@@ -1,21 +1,67 @@
 {
     "version": "1.0.2",
+    "DayUpdate": "2023-10-01 14:23",
+    "author": "tongtrankien1605",
     "videos": [
-        { "url": "dao-huyen-my-01.mp4", "title": "Đào Huyền My 01", "description": "Mô tả video 1" },
-        { "url": "dao-huyen-my-02.mp4", "title": "Đào Huyền My 02", "description": "Mô tả video 2" },
-        { "url": "dao-huyen-my-03.mp4", "title": "Đào Huyền My 03", "description": "Mô tả video 3" },
-        { "url": "dao-huyen-my-04.mp4", "title": "Đào Huyền My 04", "description": "Mô tả video 4" },
-        { "url": "dao-huyen-my-05.mp4", "title": "Đào Huyền My 05", "description": "Mô tả video 5" },
-        { "url": "dao-huyen-my-06.mp4", "title": "Đào Huyền My 05", "description": "Mô tả video 6" },
-        { "url": "dao-huyen-my-07.mp4", "title": "Đào Huyền My 07", "description": "Mô tả video 7" },
-        { "url": "dao-huyen-my-08.mp4", "title": "Đào Huyền My 08", "description": "Mô tả video 8" },
-        { "url": "dao-huyen-my-09.mp4", "title": "Đào Huyền My 09", "description": "Mô tả video 9" },
-        { "url": "dao-huyen-my-10.mp4", "title": "Đào Huyền My 10", "description": "Mô tả video 10" },
-        { "url": "dao-huyen-my-11.mp4", "title": "Đào Huyền My 11", "description": "Mô tả video 11" },
-        { "url": "dao-huyen-my-12.mp4", "title": "Đào Huyền My 12", "description": "Mô tả video 12" },
-        { "url": "dao-huyen-my-13.mp4", "title": "Đào Huyền My 13", "description": "Mô tả video 13" },
-        { "url": "dao-huyen-my-14.mp4", "title": "Đào Huyền My 14", "description": "Mô tả video 14" },
-        { "url": "dao-huyen-my-15.mp4", "title": "Đào Huyền My 15", "description": "Mô tả video 15" }
-
+        {
+            "url": "Rpddifmx.mp4",
+            "description": "Video mẫu 1"
+        },
+        {
+            "url": "RFQHrXnG.mp4",
+            "description": "Video mẫu 2"
+        },
+        {
+            "url": "h1qTQLw5.mp4",
+            "description": "Video mẫu 3"
+        },
+        {
+            "url": "n6tGAl.mp4",
+            "description": "Video mẫu 4"
+        },
+        {
+            "url": "ApD4fz.mp4",
+            "description": "Video mẫu 5"
+        },
+        {
+            "url": "wp1hg4TC.mp4",
+            "description": "Video mẫu 6"
+        },
+        {
+            "url": "nuGHBl.mp4",
+            "description": "Video mẫu 7"
+        },
+        {
+            "url": "DtggdZI.mp4",
+            "description": "Video mẫu 8"
+        },
+        {
+            "url": "c65zzdOh.mp4",
+            "description": "Video mẫu 9"
+        },
+        {
+            "url": "1VsTi103.mp4",
+            "description": "Video mẫu 10"
+        },
+        {
+            "url": "g863pxk.mp4",
+            "description": "Video mẫu 11"
+        },
+        {
+            "url": "2Wa1t96.mp4",
+            "description": "Video mẫu 12"
+        },
+        {
+            "url": "2cqpKd9R.mp4",
+            "description": "Video mẫu 13"
+        },
+        {
+            "url": "jMTVU8J.mp4",
+            "description": "Video mẫu 14"
+        },
+        {
+            "url": "lSNqqZa0.mp4",
+            "description": "Video mẫu 15"
+        }
     ]
 }
